@@ -47,6 +47,10 @@ def hello():
 def wish():
     return {"message": "this is my first branch created hi from Maddy"}
 
+@app.get("/status")
+def status():
+    return {"status": "API is running fine!"}
+
 
 # ---------------------------
 # CREATE USER (C)
