@@ -114,3 +114,8 @@ def delete_user(user_id: int, db: Session = Depends(get_db)):
     db.commit()
 
     return {"message": "User deleted successfully"}
+
+
+@app.get("/i-am-greeting")
+def greeting():
+    return {"message": "Hello, this is a greeting from the FastAPI application!"}
