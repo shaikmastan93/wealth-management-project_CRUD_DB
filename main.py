@@ -43,6 +43,10 @@ class UserUpdate(BaseModel):
 def hello():
     return {"message": "FastAPI + DB connected!"}
 
+@app.get("/welcome")
+def welcome():
+    return {"message": "API is working."}
+
 
 # ---------------------------
 # CREATE USER (C)

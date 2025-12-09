@@ -3,7 +3,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URL = "postgresql://postgres:Welcome%40123@localhost:5432/wealth_db"
+DATABASE_URL = "postgresql://postgres:sql2025@localhost:5432/wealth_db"
+
 
 
 engine = create_engine(DATABASE_URL)
