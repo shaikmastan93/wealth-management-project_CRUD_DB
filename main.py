@@ -50,6 +50,9 @@ def wish():
 @app.get("/hi")
 def hi():
     return {"message": "this is my first branch created hi from Pranali"}
+@app.get("/intern")
+def intern_message():
+    return {"message": "this is my first branch created by Sreelatha"}
 
 
 # ---------------------------
