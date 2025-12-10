@@ -39,13 +39,13 @@ class UserUpdate(BaseModel):
 # ---------------------------
 # TEST ROUTE
 # ---------------------------
-@app.get("/hello")
-def hello():
+@app.get("/welcome")
+def welcome():
     return {"message": "FastAPI + DB connected!"}
 
-@app.get("/hey")
-def wish():
-    return {"message": "this is my first branch created hi from Maddy"}
+@app.get("/hi")
+def hi():
+    return {"message": "first branch"}
 
 
 # ---------------------------
@@ -114,3 +114,5 @@ def delete_user(user_id: int, db: Session = Depends(get_db)):
     db.commit()
 
     return {"message": "User deleted successfully"}
+
+
