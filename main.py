@@ -47,6 +47,18 @@ def hello():
 def wish():
     return {"message": "this is my first branch created hi from Maddy"}
 
+@app.get("/greet")
+def greet():
+    return{"message": "greeeting from mentor"}
+
+@app.get("/greeting")
+def greeting():
+    return{"message": "greeeting from intern"}
+
+@app.get("/wishing")
+def wishes():
+    return{"message": "advance cristmas wishes added new data"}
+
 
 # ---------------------------
 # CREATE USER (C)
