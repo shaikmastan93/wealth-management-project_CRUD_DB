@@ -55,6 +55,10 @@ def greet():
 def greeting():
     return{"message": "greeeting from intern"}
 
+@app.get("/wishing")
+def wishes():
+    return{"message": "advance cristmas wishes"}
+
 
 # ---------------------------
 # CREATE USER (C)
