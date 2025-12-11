@@ -51,6 +51,9 @@ def wish():
 def hi():
     return {"message": "this is my first branch created hi from Pranali"}
 
+@app.get("/wish")
+def wish():
+    return {"message": "this is a get method created by pranali"}
 
 # ---------------------------
 # CREATE USER (C)
