@@ -57,7 +57,7 @@ def greeting():
 
 @app.get("/wishing")
 def wishes():
-    return{"message": "advance cristmas wishes happy newyear 2026"}
+    return{"message": "advance cristmas wishes happy newyear 2026 celebrations happends"}
 
 
 # ---------------------------
