@@ -54,6 +54,9 @@ def hi():
 def intern_message():
     return {"message": "this is my first branch created by Sreelatha"}
 
+@app.get("/wish")
+def wish():
+    return {"message": "this is a get method created by pranali"}
 
 # ---------------------------
 # CREATE USER (C)
