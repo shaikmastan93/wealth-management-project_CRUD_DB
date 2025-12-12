@@ -58,6 +58,10 @@ def intern_message():
 def wish():
     return {"message": "this is a get method created by pranali"}
 
+@app.get("/hello")
+def hello():
+    return("message":"this is susmitha")
+
 # ---------------------------
 # CREATE USER (C)
 # ---------------------------
